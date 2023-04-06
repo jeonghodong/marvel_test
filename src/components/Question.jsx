@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import marvelDetailImg from "../assets/images/marvleDetail.jpeg";
+// import marvelDetailImg from "../assets/images/marvleDetail.jpeg";
 import axios from "axios";
 import { useRecoilState } from "recoil";
 import { questionState } from "../states/questionState";
@@ -19,7 +19,7 @@ function Question() {
 
   useEffect(() => {
     axios
-      .get("../public/data/question.json")
+      .get("/marvel_test/data/question.json")
       .then((res) => {
         console.log(res);
         setData(res.data.question[next]);
@@ -92,11 +92,7 @@ function Question() {
   console.log(Rnum);
   return (
     <div className="bg-white z-10 opacity-95 pr-8">
-      <img
-        className="fixed z-[-1] top-0 bottom-0 w-screen h-screen opacity-70 blur"
-        src={marvelDetailImg}
-        alt="marvelDetailImg"
-      />
+      <img className="fixed z-[-1] top-0 bottom-0 w-screen h-screen opacity-70 blur bg-[url('../assets/images/marvleDetail.jpeg')]" />
       <div className="absolute top-8 left-[-25%] translate-x-1/2 w-9/12 h-2 border-2 border-black border-solid">
         <div
           style={{ width: `${gauge}%`, transition: "1s" }}

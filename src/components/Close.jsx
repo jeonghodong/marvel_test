@@ -12,7 +12,7 @@ function Close() {
 
   useEffect(() => {
     axios
-      .get("../public/data/result.json")
+      .get("/marvel_test/data/result.json")
       .then((res) => {
         console.log(res.data.result);
         const newData = res.data.result.find((v) => v.mbti === mbti);
@@ -23,7 +23,7 @@ function Close() {
   console.log(data);
 
   const handleConfirm = () => {
-    navigate("/");
+    navigate("/marvel_test");
     setMbti("");
   };
   return (
