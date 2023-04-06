@@ -21,7 +21,6 @@ function Question() {
     axios
       .get("/marvel_test/data/question.json")
       .then((res) => {
-        console.log(res);
         setData(res.data.question[next]);
         if (res.data.question[next].id === 6) {
           if (Lnum < Rnum) {
@@ -69,7 +68,6 @@ function Question() {
       .catch((err) => console.log(err));
   }, [next]);
 
-  console.log(mbti);
   const choiceClick = () => {
     setNext((v) => v + 1);
     if (data.id > 5 && next % 2 === 0) {
@@ -80,16 +78,11 @@ function Question() {
   };
   const LeftNumber = () => {
     setLNum((v) => v + 1);
-    console.log(gauge);
   };
   const RightNumber = () => {
     setRNum((v) => v + 1);
-    console.log(gauge);
   };
 
-  console.log(data);
-  console.log(Lnum);
-  console.log(Rnum);
   return (
     <div className="bg-white z-10 opacity-95 pr-8">
       <img
