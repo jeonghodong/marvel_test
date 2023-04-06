@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-// import marvelDetailImg from "../assets/images/marvleDetail.jpeg";
+import marvelDetailImg from "../assets/images/marvleDetail.jpeg";
 import axios from "axios";
 import { useRecoilState } from "recoil";
 import { questionState } from "../states/questionState";
@@ -92,7 +92,11 @@ function Question() {
   console.log(Rnum);
   return (
     <div className="bg-white z-10 opacity-95 pr-8">
-      <img className="fixed z-[-1] top-0 bottom-0 w-screen h-screen opacity-70 blur bg-[url('../assets/images/marvleDetail.jpeg')]" />
+      <img
+        src={marvelDetailImg}
+        alt="마블 디테일 배경이미지"
+        className="fixed z-[-1] top-0 bottom-0 w-screen h-screen opacity-70 blur"
+      />
       <div className="absolute top-8 left-[-25%] translate-x-1/2 w-9/12 h-2 border-2 border-black border-solid">
         <div
           style={{ width: `${gauge}%`, transition: "1s" }}

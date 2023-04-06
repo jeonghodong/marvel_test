@@ -1,5 +1,5 @@
 import React from "react";
-// import marvelBg from "../assets/images/marvel.jpeg";
+import marvelBg from "../assets/images/marvel.jpeg";
 import { useNavigate } from "react-router-dom";
 import { useRecoilState } from "recoil";
 import { mbtiState } from "../states/mbtiState";
@@ -9,7 +9,9 @@ function Main() {
   const [mbti, setMbti] = useRecoilState(mbtiState);
   return (
     <div className="bg-black z-10 opacity-95 pr-8">
-      <div className="fixed z-[-1] top-0 bottom-0 w-screen h-screen opacity-70 blur bg-[url('../assets/images/marvel.jpeg')]"></div>
+      <div className="fixed z-[-1] top-0 bottom-0 w-screen h-screen opacity-70 blur">
+        <img src={marvelBg} alt="마블의 배경이미지" className="w-screen h-screen" />
+      </div>
       <div className="w-100% h-screen flex justify-center items-center flex-col">
         <h2 className="text-white border border-white border-solid rounded-full p-5 mb-8">
           Marvel <br /> Hero <br /> Test
