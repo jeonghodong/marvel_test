@@ -3,37 +3,37 @@
     {
       "mbti": "ISTJ",
       "answer": "호크아이",
-      "image": "../image/istj.jpeg"
+      "image": "/marvel_test/image/istj.jpeg"
     },
     {
       "mbti": "ISFJ",
       "answer": "캡틴 아메리카",
-      "image": "../image/isfj.jpeg"
+      "image": "/marvel_test/image/isfj.jpeg"
     },
     {
       "mbti": "INFJ",
       "answer": "비전",
-      "image": "../image/infj.jpeg"
+      "image": "/marvel_test/image/infj.jpeg"
     },
     {
       "mbti": "INTJ",
       "answer": "닥터 스트레인지",
-      "image": "../image/intj.jpeg"
+      "image": "/marvel_test/image/intj.jpeg"
     },
     {
       "mbti": "ISTP",
       "answer": "블랙 위도우",
-      "image": "../image/istp.jpeg"
+      "image": "/marvel_test/image/istp.jpeg"
     },
     {
       "mbti": "ISFP",
       "answer": "블랙팬서",
-      "image": "../image/isfp.jpeg"
+      "image": "/marvel_test/image/isfp.jpeg"
     },
     {
       "mbti": "INFP",
       "answer": "스칼렛 위치",
-      "image": "../image/infp.jpeg"
+      "image": "/marvel_test/image/infp.jpeg"
     },
     {
       "mbti": "INTP",
@@ -43,42 +43,42 @@
     {
       "mbti": "ESTP",
       "answer": "스타로드",
-      "image": "../image/estp.jpeg"
+      "image": "/marvel_test/image/estp.jpeg"
     },
     {
       "mbti": "ESFP",
       "answer": "토르",
-      "image": "../image/esfp.jpeg"
+      "image": "/marvel_test/image/esfp.jpeg"
     },
     {
       "mbti": "ENFP",
       "answer": "스파이더맨",
-      "image": "../image/enfp.jpeg"
+      "image": "/marvel_test/image/enfp.jpeg"
     },
     {
       "mbti": "ENTP",
       "answer": "아이언맨",
-      "image": "../image/entp.jpeg"
+      "image": "/marvel_test/image/entp.jpeg"
     },
     {
       "mbti": "ESTJ",
       "answer": "캡틴마블",
-      "image": "../image/estj.jpeg"
+      "image": "/marvel_test/image/estj.jpeg"
     },
     {
       "mbti": "ESFJ",
       "answer": "엔트맨",
-      "image": "../image/esfj.jpeg"
+      "image": "/marvel_test/image/esfj.jpeg"
     },
     {
       "mbti": "ENFJ",
       "answer": "로키",
-      "image": "../image/enfj.jpeg"
+      "image": "/marvel_test/image/enfj.jpeg"
     },
     {
       "mbti": "ENTJ",
       "answer": "타노스",
-      "image": "../image/entj.jpeg"
+      "image": "/marvel_test/image/entj.jpeg"
     }
   ]
 }
