@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply border border-black border-solid cursor-pointer pl-10 pr-10 pt-5 pb-5 rounded-full;
+  }
+}
