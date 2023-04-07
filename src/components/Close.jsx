@@ -40,7 +40,9 @@ function Close() {
             src={Marvel}
             alt="마블의 배경그림"
           />
-          <h2 className="p-5">당신이 히어로가 된다면??</h2>
+          <h2 className="p-5">
+            {data.answer === "타노스" ? "헉! 당신은 최고의 빌런이었군요!" : "당신이 히어로가 된다면??"}
+          </h2>
           <span className="p-12">{data.answer}</span>
           <img className="w-96 h-96 rounded-xl border border-white border-solid" src={data.image} alt="img" />
           <span onClick={handleConfirm} className="pl-8 pr-8 pt-4 pb-4 bg-blue-600 rounded-2xl text-white mt-8">
