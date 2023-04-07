@@ -19,7 +19,7 @@ function Main() {
         <h1 className="text-white z-100 text-5xl font-bold">마블 히어로 테스트</h1>
         <div className="w-1/6 h-px bg-white mt-12 mb-12"></div>
         <p className="text-white text-center">
-          평소와 같이 평범한 일상을 보내던중, 한 쪽 눈을 가린 남자가 히어로의 일을 해보지 않겠냐는 제안을 하였다.
+          당신은 평소와 같이 평범한 일상을 보내던중, 한 쪽 눈을 가린 남자가 히어로의 일을 해보지 않겠냐는 제안을 하였다.
           <br />
           <br />
           <br />단 하나의 테스트를 해야하는데, 평소 나의 모습을 테스트하여 나와 적합한 히어로의 직무를 맡게 된다.
