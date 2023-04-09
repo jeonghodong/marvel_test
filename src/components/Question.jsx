@@ -96,16 +96,16 @@ function Question() {
           className={`absolute top-0 left-[-1px] h-1 bg-black`}
         ></div>
       </div>
-      <div className="flex justify-center flex-col items-center w-100% h-screen">
-        <span className="text-2xl">{data.text}</span>
-        <div ref={ref} className="mt-40 flex">
+      <div className="flex justify-center flex-col items-center w-screen h-screen">
+        <span className="text-[2vw] p-[2rem] text-center">{data.text}</span>
+        <div ref={ref} className="mt-40 flex ml-8">
           <span
             onClick={() => {
               choiceClick();
               LeftNumber();
               setGauge((v) => v + 5);
             }}
-            className="btn mr-8"
+            className="btn mr-8 text-[.8vw] "
           >
             {data.choice1}
           </span>
@@ -115,7 +115,7 @@ function Question() {
               RightNumber();
               setGauge((v) => v + 5);
             }}
-            className="btn mr-8"
+            className="btn mr-8  text-[.8vw]"
           >
             {data.choice2}
           </span>
