@@ -4,6 +4,6 @@
 
 @layer components {
   .btn {
-    @apply border border-black border-solid cursor-pointer pl-10 pr-10 pt-5 pb-5 rounded-full;
+    @apply border border-black border-solid cursor-pointer pl-10 pr-10 pt-5 pb-5 rounded-full w-[40vw] text-center mr-8 sm:text-[1vw] leading-4 flex items-center justify-center text-[.8rem];
   }
 }

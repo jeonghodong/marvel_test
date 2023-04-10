@@ -97,7 +97,7 @@ function Question() {
         ></div>
       </div>
       <div className="flex justify-center flex-col items-center w-screen h-screen">
-        <span className="text-[2vw] p-[2rem] text-center">{data.text}</span>
+        <span className="sm:text-[2vw] text-[1.3rem] p-[2rem] w-[100vw] text-center">{data.text}</span>
         <div ref={ref} className="mt-40 flex ml-8">
           <span
             onClick={() => {
@@ -105,7 +105,7 @@ function Question() {
               LeftNumber();
               setGauge((v) => v + 5);
             }}
-            className="btn mr-8 text-[.8vw] "
+            className="btn"
           >
             {data.choice1}
           </span>
@@ -115,7 +115,7 @@ function Question() {
               RightNumber();
               setGauge((v) => v + 5);
             }}
-            className="btn mr-8  text-[.8vw]"
+            className="btn"
           >
             {data.choice2}
           </span>
